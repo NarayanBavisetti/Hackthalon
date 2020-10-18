@@ -22,13 +22,13 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav mr-auto">
             <li class="nav-item active ">
-              <a class="nav-link" href="/sample/">Home <span class="sr-only">(current)</span></a>
+              <a class="nav-link" href="/">Home <span class="sr-only">(current)</span></a>
             </li>
             <li class="nav-item ">
-              <a class="nav-link" href="/sample/attach.html">Appointement</a>
+              <a class="nav-link" href="attach.html">Appointement</a>
             </li>
             <li class="nav-item dropdown ">
-              <a class="nav-link" href="/sample/contact.html" target="_self" id="navbarDropdown" role="button" aria-haspopup="true" aria-expanded="false" >
+              <a class="nav-link" href="contact.html" target="_self" id="navbarDropdown" role="button" aria-haspopup="true" aria-expanded="false" >
                Contact
               </a>
               <!-- <div class="dropdown-menu" aria-labelledby="navbarDropdown">
@@ -46,8 +46,23 @@
             <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
             <button class="btn btn-outline-danger my-2 my-sm-0" type="submit">Search</button>
           </form>
+
+
+
+
+
+
+
+
+          <!-- signin login valla button -->
+
+
+
+
+
+
       <div class="mx-2">
-        <button class="btn btn-danger" data-toggle="modal" data-target="#LoginModal">Login</button>
+        <button class="btn btn-danger" data-toggle="modal" data-target="#LoginModal">Login</a></button>
         <button class="btn btn-danger" data-toggle="modal" data-target="#SignupModal">Sign up</button>
 
       </div>
@@ -66,15 +81,15 @@
         </button>
       </div>
       <div class="modal-body">
-        <form>
+        <form action="validation1.php" method="post">
           <div class="form-group">
-            <label for="exampleInputEmail1">Email address</label>
-            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+            <label for="exampleInputEmail1">Username</label>
+            <input type="email" class="form-control" name="user" id="exampleInputEmail1" aria-describedby="emailHelp">
             <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
           </div>
           <div class="form-group">
             <label for="exampleInputPassword1">Password</label>
-            <input type="password" class="form-control" id="exampleInputPassword1">
+            <input type="password" class="form-control" name="password" id="exampleInputPassword1">
           </div>
           <div class="form-group form-check">
             <input type="checkbox" class="form-check-input" id="exampleCheck1">
@@ -103,15 +118,15 @@
         </button>
       </div>
       <div class="modal-body">
-        <form>
+        <form action="validation.php" method="post">
           <div class="form-group">
-            <label for="exampleInputEmail1">Email address</label>
-            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+            <label for="exampleInputEmail1">Username</label>
+            <input type="email" class="form-control" name="user" id="exampleInputEmail1" aria-describedby="emailHelp">
             <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
           </div>
           <div class="form-group">
             <label for="exampleInputPassword1">Password</label>
-            <input type="password" class="form-control" id="exampleInputPassword1">
+            <input type="password" class="form-control" name="password" id="exampleInputPassword1">
           </div>
           <div class="form-group">
             <label for="cexampleInputPassword1">Confirm Password</label>
@@ -132,7 +147,28 @@
 
 
 
-     
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- sign in login end -->
+
+
+
+
+
+
+
+     <!-- yaha sa images hai -->
 
       <div id="carouselExampleIndicators" class="carousel slide carousel-fade" data-ride="carousel">
         <ol class="carousel-indicators">
@@ -225,6 +261,8 @@
       </div>
 </div>
 </div>
+
+
 
 
 
